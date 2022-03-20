@@ -2,7 +2,7 @@
 
 🍬 Technologies: typeOrm, typeScript, nodejs, Expressjs, postgres
 
-[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/expressjs-rest-hello)
+[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)]
 
 
 ## Quick Start

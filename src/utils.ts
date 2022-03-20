@@ -37,8 +37,8 @@ export const renderIndex = async (_app: any, url: string) => {
 	let data = {
 		host: url,
 		routes,
-		rigo: "https://github.com/4GeeksAcademy/expressjs-rest-hello/blob/master/docs/assets/rigo-baby.jpeg?raw=true",
-		starter: "https://start.4geeksacademy.com/starters/express",
+		logo: "https://web-static.wrike.com/cdn-cgi/image/width=1034,format=auto,q=80/blog/content/uploads/2019/05/API-Wrike-.jpg",
+		starter: "https://github.com/jgarciaf106",
 
 	}
 	return new Promise((resolve, reject) => {

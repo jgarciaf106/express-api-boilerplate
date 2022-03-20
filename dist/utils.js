@@ -107,8 +107,8 @@ var renderIndex = function (_app, url) { return __awaiter(void 0, void 0, void 0
         data = {
             host: url,
             routes: routes,
-            rigo: "https://github.com/4GeeksAcademy/expressjs-rest-hello/blob/master/docs/assets/rigo-baby.jpeg?raw=true",
-            starter: "https://start.4geeksacademy.com/starters/express"
+            logo: "https://web-static.wrike.com/cdn-cgi/image/width=1034,format=auto,q=80/blog/content/uploads/2019/05/API-Wrike-.jpg",
+            starter: "https://github.com/jgarciaf106"
         };
         return [2 /*return*/, new Promise(function (resolve, reject) {
                 // use the EJS template engine to generate the HTML/CSS

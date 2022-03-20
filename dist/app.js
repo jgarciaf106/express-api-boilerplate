@@ -12,7 +12,7 @@ var typeorm_1 = require("typeorm");
 var utils_1 = require("./utils");
 var private_routes_1 = __importDefault(require("./private_routes"));
 var public_routes_1 = __importDefault(require("./public_routes"));
-var PORT = 3001;
+var PORT = process.env.PORT || '3001';
 var PUBLIC_URL = utils_1.url(PORT);
 var app = express_1["default"]();
 // create a database connection based on the ./ormconfig.js file
@@ -34,7 +34,6 @@ app.use(public_routes_1["default"]);
 /**
  * ⚠️ IMPORTANT
  * This is the place to include your JWT middleware that will make private routes really private
- * you can ready more about it here: https://github.com/4GeeksAcademy/expressjs-rest-hello/blob/master/docs/JWT_AUTHETICATION.md
  * */
 // Import private routes from ./src/private_routes.ts file
 // this line has to be BELOW the JWT middleware to enforce
