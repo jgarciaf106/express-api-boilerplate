@@ -35,7 +35,6 @@ app.use(publicRoutes);
 /**
  * ⚠️ IMPORTANT
  * This is the place to include your JWT middleware that will make private routes really private 
- * you can ready more about it here: https://github.com/4GeeksAcademy/expressjs-rest-hello/blob/master/docs/JWT_AUTHETICATION.md
  * */
 
 // Import private routes from ./src/private_routes.ts file

@@ -12,9 +12,9 @@ module.exports = {
     cli: {
         "migrationsDir": "./dist/migrations"
     },
-    // ssl: process.env.NODE_ENV === 'development' ? true : false
-    ssl: process.env.NODE_ENV === 'development' ? false: {
-        require: true,
-          rejectUnauthorized: false,
-        },
+    ssl: process.env.NODE_ENV === 'development' ? true : false
+    // ssl: process.env.NODE_ENV === 'development' ? false: {
+    //     require: true,
+    //       rejectUnauthorized: false,
+    //     },
  }
